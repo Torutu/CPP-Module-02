@@ -7,9 +7,9 @@ int main() {
 
     c = b; // Copy assignment operator called
 
-    std::cout << "a " << a.getRawBits() << std::endl; // getRawBits member function called
-    std::cout << "b " << b.getRawBits() << std::endl; // getRawBits member function called
-    std::cout << "c " << c.getRawBits() << std::endl; // getRawBits member function called
+    std::cout << a.getRawBits() << std::endl; // getRawBits member function called
+    std::cout << b.getRawBits() << std::endl; // getRawBits member function called
+    std::cout << c.getRawBits() << std::endl; // getRawBits member function called
 
     return 0;
 }

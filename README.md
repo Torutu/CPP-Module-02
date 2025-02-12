@@ -54,3 +54,10 @@ This project implements a **Barycentric Subdivision Point-in-Triangle (BSP) Test
 1. Test if a point lies inside a triangle using the `bsp` function.
 2. Arithmetic operations are handled with `Fixed` class objects.
 
+https://www.geeksforgeeks.org/check-whether-a-given-point-lies-inside-a-triangle-or-not/
+
+---
+
+### How to run the exercise
+1.Clone the repository, from the top right "<> code"
+2.Compile each exercise using the command "make" on the terminal inside each directory.

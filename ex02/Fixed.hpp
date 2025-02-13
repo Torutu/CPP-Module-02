@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: walnaimi <walnaimi@student.hive.fi>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/13 13:59:54 by walnaimi          #+#    #+#             */
+/*   Updated: 2025/02/13 14:32:03 by walnaimi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef FIXED_HPP
 #define FIXED_HPP
 
@@ -49,7 +61,7 @@ public:
     void setRawBits(int raw);
 };
 
-// Stream Insertion Operator
+//Stream Insertion Operator
 std::ostream& operator<<(std::ostream& os, const Fixed& fixed);
 
 #endif

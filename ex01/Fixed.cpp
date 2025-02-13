@@ -1,6 +1,16 @@
-#include "Fixed.hpp"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.cpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: walnaimi <walnaimi@student.hive.fi>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/13 12:52:00 by walnaimi          #+#    #+#             */
+/*   Updated: 2025/02/13 14:18:21 by walnaimi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-const int Fixed::_fractionalBits = 8;
+#include "Fixed.hpp"
 
 Fixed::Fixed() : _fixedPointValue(0) {
     std::cout << "Default constructor called" << std::endl;

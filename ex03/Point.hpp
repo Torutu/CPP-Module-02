@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Point.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: walnaimi <walnaimi@student.hive.fi>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/13 14:15:21 by walnaimi          #+#    #+#             */
+/*   Updated: 2025/02/13 14:24:43 by walnaimi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef POINT_HPP
 #define POINT_HPP
 
@@ -10,13 +22,13 @@ private:
 
 public:
     // Constructors and Destructor
-    Point();
-    Point(const float x, const float y);
-    Point(const Point& other);
-    ~Point();
+    Point();//A default constructor that initializes x and y to 0.
+    Point(const float x, const float y);//A constructor that takes as parameters two constant floating-point numbers.It initializes x and y with those parameters.
+    Point(const Point& other); //A copy constructor.
+    ~Point(); // destructor
 
     // Operator Overload
-    Point& operator=(const Point& other);
+    Point& operator=(const Point& other);//A copy assignment operator overload.
 
     // Getters
     Fixed getX() const;

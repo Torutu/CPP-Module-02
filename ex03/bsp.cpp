@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   bsp.cpp                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: walnaimi <walnaimi@student.hive.fi>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/13 14:15:11 by walnaimi          #+#    #+#             */
+/*   Updated: 2025/02/13 14:15:12 by walnaimi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "Point.hpp"
 
 // Calculate the signed area of a triangle
@@ -24,3 +36,4 @@ bool bsp(Point const a, Point const b, Point const c, Point const point) {
 
     return allPositive || allNegative;
 }
+//https://www.geeksforgeeks.org/check-whether-a-given-point-lies-inside-a-triangle-or-not/

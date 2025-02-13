@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.hpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: walnaimi <walnaimi@student.hive.fi>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/13 14:15:44 by walnaimi          #+#    #+#             */
+/*   Updated: 2025/02/13 14:15:45 by walnaimi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 // Fixed.hpp
 #ifndef FIXED_HPP
 #define FIXED_HPP
@@ -7,7 +19,7 @@
 class Fixed {
 private:
     int _fixedPointValue;               // Fixed-point number value
-    static const int _fractionalBits;  // Number of fractional bits (always 8)
+    static const int _fractionalBits = 8;  // Number of fractional bits (always 8)
 
 public:
     // Default constructor
